@@ -1,0 +1,116 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#chat-container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-header {
+    background-color: #25D366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#message-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+} */
+
+div{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+header{
+    width: 400px;
+    background-color: green;
+    height: 150px;
+    display: flex;
+    z-index: 1px;
+}
+
+h1{
+    color: white;
+    font-family: serif;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.camera{
+    height: 30px;
+    width: 30px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.search{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+#searchInput{
+    display: none;
+}
+
+#searchIcon{
+    background: none;
+    border: none;
+    margin-top: -55px;
+}
+
+#menu{
+    background: none;
+    border: none;
+    margin-top: -55px;
+}
+
+.menu{
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: none;
+    text-align: left;
+}
